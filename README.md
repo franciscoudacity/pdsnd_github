@@ -10,6 +10,7 @@ Se cambia el nombre del proyecto
 
 ### Description
 Describe what your project is about and what it does
+La utilidad es consultar la utilización por día, hora y destinos en cada ciudad
 
 ### Files used
 Include the files used
