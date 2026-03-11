@@ -14,8 +14,11 @@ La utilidad es consultar la utilización por día, hora y destinos en cada ciuda
 
 ### Files used
 Include the files used
+README.md
+bikeshare.py
+new_york_city.cmd
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 Desarrollado por francisco.porra@seat.es
-
+Creditos adiconales a Francisco

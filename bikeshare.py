@@ -25,13 +25,13 @@ def get_filters():
         if ciudad in CITY_DATA:
             break
         else:
-            print("Invalid city. Please enter one of the available options.")
+            print("Invalid city. Please enter one of the available options")
      
     # TO DO: get user input for month (all, january, february, ... , june)
     # Pedir MEs
     meses = ["january", "february", "march", "april", "may", "june", "all"]
     while True:
-        mes = input("Select a month (January, February, March, April, May, June, all)").strip().lower()
+        mes = input("Select a MONTH (January, February, March, April, May, June, all)").strip().lower()
         if mes in meses:
             break
         else:
@@ -41,7 +41,7 @@ def get_filters():
     # Día
     dias = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday", "all"]
     while True:
-        dia= input("Select a day (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, all)").strip().lower()
+        dia= input("Select a DAY (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, all)").strip().lower()
         if dia in dias:
             break
         else:
