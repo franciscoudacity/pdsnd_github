@@ -25,7 +25,7 @@ def get_filters():
         if ciudad in CITY_DATA:
             break
         else:
-            print("Invalid city. Please enter one of the available options")
+            print("Invalid city. Please enter one of the available options.")
      
     # TO DO: get user input for month (all, january, february, ... , june)
     # Pedir MEs
@@ -35,7 +35,7 @@ def get_filters():
         if mes in meses:
             break
         else:
-            print("Invalid Month. Please enter one of the available options")
+            print("Invalid Month. Please enter one of the available options.")
            
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)        
     # Día
